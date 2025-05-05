@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="logo">YT 李</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <div class="about-text">
+                <p class="intro">Hi, I'm Yao Tiem Lee, a Passionate</p>
+                <h2>Web Developer</h2>
+                <p class="description">Currently pursuing a postgraduate in Web Development at Humber Polytechnic. Eager to learn and apply my skills in front-end development to create user-friendly web applications</p>
+                <button id="button-1">Contact Me</button>
+            </div>
+            <img src="./images/HeaderImage.png" alt="Yao Tiem Lee with Starbucks cup" class="header-image">
+        </section>
+        <section id="skills">
+            <h3>Technologies I Use</h3>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <a href="https://html.spec.whatwg.org/multipage/">
+                    <img src="./images/HTML5_Badge.svg" alt="HTML5 logo" width="80">
+                    </a>
+                </div>
+                <div class="skill-item">
+                    <a href="https://www.w3.org/Style/CSS/">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3 logo" width="80">
+                      </a>
+                </div>
+                <div class="skill-item">
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript logo" width="80">
+                      </a>
+                </div>
+                <p class="trademark-notice">
+                    HTML5™ & CSS3™ are trademarks of W3C. CSS3 logo by daPhyre, Elfi & ExE Boss, licensed CC By 3.0. JavaScript logo public domain (Chris Williams).
+                </p>
+            </div>
+        </section>
+        <section id="projects">
+            <h3>My Projects</h3>
+            <div class="projects-container">
+                <div class="project-item">
+                    <img src="./images/rockpaper.png" alt="Rock Paper Scissors">
+                    <h4>Rock, Paper, Scissor</h4>
+                    <p>Code a fun game where users compete against the computer, and show who wins each round</p>
+                </div>
+                <div class="project-item">
+                    <img src="./images/todolist.png" alt="To Do List">
+                    <h4>To do list</h4>
+                    <p>Build a to-do list where users can add, delete, and mark tasks as complete.</p>
+                </div>
+                <div class="project-item">
+                    <img src="./images/stopwatch.png" alt="Stopwatch">
+                    <h4>Stopwatch</h4>
+                    <p>Build stopwatch where users can start, pause and stop timer.</p>
+                </div>
+                <div class="project-item">
+                    <img src="./images/calculator.png" alt="Calculator">
+                    <h4>Calculator</h4>
+                    <p>Create a basic calculator to perform simple arithmetic operations</p>
+                </div>
+                <div class="project-item">
+                    <img src="./images/foodreceipe.png" alt="Food Recipe">
+                    <h4>Food recipe</h4>
+                    <p>Design a recipe site where users can browse or add recipes</p>
+                </div>
+                <div class="project-item">
+                    <img src="./images/pokedex.png" alt="Pokemon Pokedex">
+                    <h4>Pokemon pokedex</h4>
+                    <p>Allow users to search for a Pokémon by name or ID and display its details.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-text">
+            <h3>Let's work together</h3>
+            <p>All of my projects are available at <a href="https://github.com/yaoolee" target="_blank">https://github.com/yaoolee</a></p>
+        </div>
+            <form method="get" id="userForm" name="userForm">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="footer">© 2025 Yao Tiem Lee</p>
+    </footer>
+</body>
+</html>
