@@ -5,17 +5,61 @@
     box-sizing: border-box;
     font-family: 'Roboto', 'Times New Roman', Times, serif;
 }
+
+body{
+    margin: 0;
+    padding: 2rem 5rem;
+}
 header{
     display: flex;
     justify-content: space-between;
     text-align: center;
     flex-wrap: wrap;
-    margin: 2rem 0;
-    padding: 0 5rem;
+    margin-bottom: 8rem;
 }
 ul li, a{
     text-decoration: none;
     list-style-type: none;
     display: inline;
     padding: 0 1rem;
+}
+#about, h2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin-bottom: 2rem;
+    font-size: 68px;
+    /* width: 928px;  */
+}
+.about-text p{
+    padding: 1rem 0;
+    font-size: 20px;
+    line-height: 2rem;
+    width: 600px;
+}
+#button-1{
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+#about img{
+    /* border: 8px solid red; */
+    object-fit: cover;
+    max-width: 800px;
+    padding-left: 2rem;
+    margin-bottom: 8rem;
+}
+#skills h3, #projects h3{
+    text-align: center;
+    margin-bottom: 8rem;
+}
+.skills-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    max-width: 1310px;
+    text-align: center;
+    margin-bottom: 8rem;
 }
