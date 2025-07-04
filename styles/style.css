@@ -50,6 +50,7 @@ ul li, a{
     max-width: 800px;
     padding-left: 2rem;
     margin-bottom: 8rem;
+    border-radius: 8rem;
 }
 #skills h3, #projects h3{
     text-align: center;
