@@ -164,6 +164,11 @@ footer {
     .projects-container {
         grid-template-columns: 1fr;
     }
+    #button-1, .download-btn{
+        margin-top: 2px;
+        padding: 4px;
+        border-radius: 0.5rem;
+    }
 }
 
 
