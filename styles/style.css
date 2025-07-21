@@ -49,9 +49,9 @@ h2 {
     max-width: 100%;
 }
 
-#button-1, .download-btn {
+#button-1, .download-btn, #theme-toggle{
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     cursor: pointer;
     font-weight: bold;
     color: white;
