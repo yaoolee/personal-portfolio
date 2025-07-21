@@ -27,6 +27,7 @@ ul li, a {
     list-style-type: none;
     display: inline;
     padding: 0 1rem;
+    color: red;
 }
 
 /* About Section */
@@ -135,6 +136,10 @@ footer {
   color: #666;
 }
 
+.dark-mode{
+    color: white;
+    background-color: black;
+} 
 @media (max-width: 768px) {
     body {
         padding: 1rem;
@@ -165,6 +170,11 @@ footer {
         grid-template-columns: 1fr;
     }
     #button-1, .download-btn{
+        margin-top: 2px;
+        padding: 4px;
+        border-radius: 0.5rem;
+    }
+    #theme-toggle{
         margin-top: 2px;
         padding: 4px;
         border-radius: 0.5rem;
