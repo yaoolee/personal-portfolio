@@ -22,18 +22,27 @@ header {
     margin-bottom: 4rem;
 }
 
-ul li, a {
+ul li,a {
     text-decoration: none;
     list-style-type: none;
     display: inline;
     padding: 0 1rem;
     color: red;
+    font-size: 1.1rem;
+}
+
+ol li{
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 100%; 
+}
+ol {
+    padding-left: 1rem;
 }
 
 /* About Section */
 #about {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin-bottom: 2rem;
     gap: 2rem;
     align-items: center;
@@ -42,8 +51,23 @@ ul li, a {
 h2 {
     font-size: 2.5rem;
 }
+p{
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 100%; 
+}
+#theme-toggle{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    margin-top: 1rem;
+    background-color: black;
+} 
 
-.about-text p {
+/* .about-text p {
     padding: 1rem 0;
     font-size: 1.1rem;
     line-height: 1.8;
@@ -59,12 +83,7 @@ h2 {
     margin-top: 1rem;
     background-color: black;
 } 
-#theme-toggle{
-    padding: 0.5rem;
-    border-radius: 1rem;
-} 
 
-/* About Image */
 #about img {
     object-fit: cover;
     width: 100%;
@@ -73,13 +92,13 @@ h2 {
     margin: 0 auto;
 }
 
-/* Section Headings */
+
 #skills h3, #projects h3 {
     text-align: center;
     margin: 4rem 0 2rem;
 }
 
-/* Skills */
+
 .skills-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
@@ -88,7 +107,6 @@ h2 {
     margin-bottom: 4rem;
 }
 
-/* Projects */
 .projects-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -112,8 +130,6 @@ h2 {
     margin-bottom: 1rem;
 }
 
-
-/*contact section */
 #contact {
   margin: 2rem 0;
 }
@@ -131,7 +147,7 @@ h2 {
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
-}
+} 
 footer {
   margin-top: 3rem;
   padding-top: 1rem;
@@ -140,7 +156,7 @@ footer {
   font-size: 0.85rem;
   color: #666;
 }
-
+*/
 .dark-mode{
     color: white;
     background-color: black;
@@ -164,26 +180,18 @@ footer {
         font-size: 2rem;
     }
 
-    .about-text p {
+    p {
         font-size: 1rem;
     }
-
-    #about img {
-        border-radius: 4rem;
-    }
-    .projects-container {
-        grid-template-columns: 1fr;
-    }
-    #button-1, .download-btn{
-        margin-top: 2px;
-        padding: 4px;
-        border-radius: 0.5rem;
+    ol li {
+        display: block;
+        padding: 0.5rem o;
     }
     #theme-toggle{
         margin-top: 2px;
         padding: 4px;
         border-radius: 0.5rem;
-    }
+    } 
 }
 
 
